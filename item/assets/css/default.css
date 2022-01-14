@@ -1,0 +1,370 @@
+.ak-panel-content {
+    padding: 12px;
+    background: #f8f8f6;
+}
+
+.ak-big-text {
+    font-size: 26px;
+    font-size: 2.6rem;
+    padding: 10px;
+    padding: 1rem;
+    font-family: "bebas_neueregular",sans-serif;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    display: table-cell;
+}
+
+.ak-column {
+    float: left;
+    width: 50%;
+
+    position: relative;
+    min-height: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.ak-image {
+    padding: 0.5rem;
+    vertical-align: top;
+    display: table-cell;
+    margin: 0;
+    width: 40px;
+}
+
+.ak-image img {
+    background: #97a800;
+    border: 1px solid #6f780d;
+    box-shadow: inset 0 0 3px #6f780d;
+    width: 48px;
+    height: 48px;
+    max-width: 48px;
+}
+
+.ak-image a {
+    border: none;
+}
+
+.ak-title {
+    padding: 0.3rem 0;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.ak-text {
+    color: #78664c;
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: left;
+}
+
+.ak-linker {
+    color: #362712;
+}
+
+.ak-big-text-aside {
+    font-weight: bold;
+    color: #c56f07;
+    vertical-align: middle;
+    text-align: right;
+    position: relative;
+    display: table-cell;
+
+    font-size: 26px;
+    font-size: 2.6rem;
+    padding: 10px;
+    padding: 1rem;
+    font-family: "bebas_neueregular",sans-serif;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.ak-panel {
+    background: #f8f8f6;
+    margin-bottom: 0;
+    border-top: 1px solid #b1ac9c;
+    border-top-color: #b1ac9c;
+}
+
+.ak-panel-title {
+    font-size: 26px;
+    font-size: 2.6rem;
+    margin-top: 12px;
+    margin-top: 1.2rem;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-left: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: "bebas_neueregular",sans-serif;
+    border-bottom: none;
+    height: auto;
+    line-height: 28px;
+    line-height: 2.8rem;
+    min-height: 32px;
+    text-shadow: none;
+    color: #28170e;
+    background: none;
+}
+
+.ak-encyclo-detail-illu {
+    text-align: center;
+    border: 4px inset;
+    margin-bottom: 6px;
+    margin-bottom: 0.6rem;
+}
+
+.ak-encyclo-detail-illu {
+    border-top-color: #b1ac9c;
+    border-right-color: #c9c6bb;
+    border-bottom-color: #dfdbcd;
+    border-left-color: #c9c6bb;
+    background: url(/images/bg-item.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.img-maxresponsive {
+    max-width: 100%;
+}
+
+.ak-encyclo-detail-illu img {
+    display: inline-block;
+    height: auto;
+}
+
+.ak-panel-title-icon {
+    background-image: url("/images/sprite_common.png");
+    background-position: -148px 0;
+    background-repeat: no-repeat;
+    margin-right: .2em;
+    padding: 0 .2em;
+    vertical-align: middle;
+    width: auto;
+    height: 28px;
+    line-height: 28px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.ak-panel-intro {
+    color: #28170e;
+    margin-bottom: 12px;
+}
+
+.ak-content-list .ak-list-element {
+    display: table;
+    width: 100%;
+    color: #28170e;
+    position: relative;
+    font-size: 13px;
+    font-size: 1.3rem;
+    font-family: "Roboto",sans-serif;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 5px 3px;
+    padding: 0.5rem 0.3rem;
+}
+
+.ak-content-list .ak-list-element:last-child {
+    border-bottom: none;
+}
+
+.ak-content-list.ak-displaymode-col .ak-list-element {
+    border: 1px solid #c9c6bb;
+    border-top: none;
+    color: #28170e;
+    padding: 0;
+}
+
+.ak-content-list.ak-displaymode-col .ak-list-element:nth-child(2n) {
+    background-color: #fff;
+}
+
+.ak-content-list.ak-displaymode-col .ak-list-element:nth-child(2n+1) {
+    background-color: #e4e0d7;
+}
+
+.ak-content-list.ak-displaymode-col>.ak-list-element:nth-child(1) {
+    border-top: 1px solid;
+}
+
+.ak-content-list.ak-displaymode-col>.ak-list-element:first-child {
+    border-color: #c9c6bb;
+}
+
+.ak-content-list .ak-list-element .ak-front, .ak-content-list .ak-list-element .ak-main {
+    display: table-cell;
+    position: relative;
+}
+
+.ak-content-list .ak-list-element .ak-main {
+    padding: 0;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content {
+    display: table;
+    position: relative;
+    width: 100%;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content .ak-aside, .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-image, .ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content {
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content {
+    vertical-align: middle;
+}
+
+.ak-content-list.ak-displaymode-col .ak-list-element .ak-main .ak-main-content .ak-content {
+    padding: 3px;
+    padding: 0.3rem;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content .ak-content .ak-title {
+    font-size: 13px;
+    font-size: 1.3rem;
+    padding: 3px 0;
+    padding: 0.3rem 0;
+}
+
+.ak-content-list.ak-displaymode-col .ak-list-element .ak-main .ak-main-content .ak-content .ak-title {
+    padding: 0;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
+
+.col-sm-3 {
+    width: 21%;
+}
+
+.col-sm-9 {
+    width: 79%;
+}
+
+.ak-content-list.ak-displaymode-image-col .ak-list-element {
+    border: none;
+    font-size: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    margin-bottom: 1.2rem;
+    padding: 0;
+}
+
+.ak-content-list .ak-list-element .ak-front {
+    color: #78664c;
+    position: relative;
+    vertical-align: middle;
+    width: 60px;
+    padding: 0 5px;
+    padding: 0 0.5rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.ak-content-list.ak-displaymode-image-col .ak-list-element .ak-front {
+    color: #28170e;
+    width: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ak-content-list.ak-displaymode-image-col .ak-list-element .ak-main .ak-main-content {
+    background: #fff;
+    border: 1px solid #c9c6bb;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content .ak-image {
+    vertical-align: top;
+    width: 40px;
+    padding: 0 5px;
+    padding: 0 0.5rem;
+}
+
+.ak-content-list.ak-displaymode-image-col .ak-list-element .ak-main .ak-main-content .ak-image {
+    padding: 5px;
+    padding: 0.5rem;
+}
+
+.ak-content-list .ak-list-element .ak-aside, .ak-content-list .ak-list-element .ak-text {
+    color: #78664c;
+}
+
+.ak-content-list .ak-list-element .ak-main .ak-main-content .ak-aside {
+    padding-right: 5px;
+    padding-right: 0.5rem;
+    vertical-align: middle;
+    font-size: 13px;
+    font-size: 1.3rem;
+    text-align: right;
+    width: 95px;
+    position: relative;
+}
+
+.ak-content-list.ak-displaymode-image-col .ak-list-element .ak-main .ak-main-content .ak-aside {
+    font-weight: bold;
+    font-size: 15px;
+    font-size: 1.5rem;
+    padding-right: 5px;
+    padding-right: 0.5rem;
+    color: #c56f07;
+}
+
+.ak-encyclo-block-info {
+    border: 1px solid;
+    margin-bottom: 12px;
+    padding: .5em;
+}
+
+.ak-encyclo-block-info {
+    background: #edeae0;
+    border-color: #c9c6bb;
+    color: #28170e;
+}
+
+.ak-encyclo-block-info .ak-encyclo-detail-level {
+    color: #c56f07;
+}
+
+.ak-encyclo-block-info .ak-encyclo-detail-type span {
+    font-style: italic;
+}
+
+.ak-encyclo-block-info .ak-encyclo-detail-type span {
+    color: inherit;
+}
+
+table td {
+    height: auto;
+}
